@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Environment
+.env
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# Manim generated output (runtime artifacts)
+media_output/media/
+media_output/clips/
+media_output/*.py
+
+# Manim partial render chunks inside public/videos/
+frontend/public/videos/**/partial_movie_files/
+frontend/public/videos/dbpendulum/
+frontend/public/videos/energy/
+frontend/public/videos/incline/
+frontend/public/videos/projectile/
+frontend/public/videos/pulley/
+frontend/public/videos/spring/
+
+# Databases
+backend/*.db
+backend/rag/chroma_data/
+backend/rag/chroma_db/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+server.log
+
+# IDE
+.cursor/
+.idea/
+.vscode/
